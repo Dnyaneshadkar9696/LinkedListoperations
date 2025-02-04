@@ -22,8 +22,11 @@ class AddLink{
     public void stage(){
         int newNode = 61;
         oi.addFirst(newNode);
-        System.out.println("new Linkedlist "+ oi);
+//        System.out.println("new Linkedlist "+ oi);
 
+        int newnode3 = 8;
+        oi.addLast(newnode3);
+        System.out.println("New LinkedList "+ oi);
 
 
     }
